@@ -140,7 +140,7 @@ function Index() {
 
       <div className="relative z-10 lg:pl-60">
         {/* Top bar */}
-        <header className="sticky top-0 z-20 flex items-center gap-3 px-4 py-4 sm:px-8">
+        <header className="sticky top-0 z-20 flex items-center gap-3 bg-background/30 px-4 py-4 backdrop-blur-md sm:px-8">
           <div className="relative flex-1 max-w-xl">
             <Search className="pointer-events-none absolute left-4 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
             <input value={query} onChange={(e) => { setQuery(e.target.value); setSearchOpen(true); }} onFocus={() => setSearchOpen(true)} onBlur={() => setTimeout(() => setSearchOpen(false), 150)}

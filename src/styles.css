@@ -166,7 +166,7 @@
   background: radial-gradient(ellipse 18% 5% at 20% 30%, oklch(1 0 0 / 0.5), transparent), radial-gradient(ellipse 22% 4% at 60% 18%, oklch(1 0 0 / 0.4), transparent), radial-gradient(ellipse 15% 4% at 85% 38%, oklch(1 0 0 / 0.35), transparent);
   filter: blur(8px); animation: drift 90s linear infinite; }
 .sky .haze { position: absolute; inset: 0; background: linear-gradient(90deg, oklch(0.1 0.03 295 / calc(0.55 + var(--p) * 0.3)) 0%, oklch(0.1 0.03 295 / calc(0.15 + var(--p) * 0.2)) 55%, oklch(0.1 0.03 295 / 0.35) 100%), linear-gradient(0deg, oklch(0.1 0.03 295 / 0.9), transparent 45%); }
-.sky .drone { position: absolute; top: 22%; left: -10%; width: 34px; opacity: calc(0.3 + var(--p) * 0.7); animation: fly 38s linear infinite; }
+.sky .drone { position: absolute; color: oklch(0.15 0.02 290); top: 22%; left: -10%; width: 34px; opacity: calc(0.3 + var(--p) * 0.7); animation: fly 38s linear infinite; }
 .sky .drone i { position: absolute; top: 6px; left: 50%; width: 4px; height: 4px; border-radius: 50%; background: var(--primary-glow); box-shadow: 0 0 10px 3px var(--primary-glow); animation: blink 1.2s steps(2) infinite; }
 .sky .birds { position: absolute; top: 28%; left: -10%; opacity: calc(0.7 - var(--p) * 1.5); animation: fly 55s linear infinite; animation-delay: -20s; color: oklch(0.2 0.02 280); }
 @keyframes twinkle { to { filter: brightness(0.5); } }

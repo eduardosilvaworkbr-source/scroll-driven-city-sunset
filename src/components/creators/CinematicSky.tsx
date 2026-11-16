@@ -45,10 +45,9 @@ export function CinematicSky({ onPhase }: { onPhase?: (p: number) => void }) {
       <svg className="birds" width="70" height="24" viewBox="0 0 70 24" fill="none" stroke="currentColor" strokeWidth="1.6">
         <path d="M2 10q5-6 10 0q5-6 10 0" /><path d="M30 4q4-4 8 0q4-4 8 0" /><path d="M48 16q4-4 8 0q4-4 8 0" />
       </svg>
-      <svg className="drone" viewBox="0 0 34 14" fill="currentColor">
+      <div className="drone"><svg viewBox="0 0 34 14" fill="currentColor">
         <rect x="12" y="5" width="10" height="4" rx="2" /><rect x="0" y="2" width="12" height="1.5" rx=".7" /><rect x="22" y="2" width="12" height="1.5" rx=".7" />
-        <i />
-      </svg>
+      </svg><i /></div>
       <div className="haze" />
     </div>
   );
